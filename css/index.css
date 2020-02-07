@@ -1,0 +1,231 @@
+@font-face {
+  font-family: 'Amatic SC';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Amatic SC Regular'), local('AmaticSC-Regular'), url(https://fonts.gstatic.com/s/amaticsc/v13/TUZyzwprpvBS1izr_vOECuSa.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Indie Flower';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Indie Flower'), local('IndieFlower'), url(https://fonts.gstatic.com/s/indieflower/v11/m8JVjfNVeKWVnh3QMuKkFcZVaUuC.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lobster';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Lobster Regular'), local('Lobster-Regular'), url(https://fonts.gstatic.com/s/lobster/v22/neILzCirqoswsqX9zoKmNg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lobster';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Lobster Regular'), local('Lobster-Regular'), url(https://fonts.gstatic.com/s/lobster/v22/neILzCirqoswsqX9zoKmNg.ttf) format('truetype');
+}
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+.page-container {
+  margin: 3%;
+}
+h1 {
+  font-size: 5rem;
+  font-family: 'Lobster', cursive;
+  color: #030303;
+}
+h3 {
+  font-size: 2rem;
+  font-family: 'Lobster', cursive;
+  color: #030303;
+}
+.logo {
+  padding-bottom: 1%;
+  display: flex;
+}
+html {
+  font-family: 'Indie Flower', cursive;
+}
+.fas {
+  color: #030303;
+}
+footer {
+  text-align: center;
+}
+.icon {
+  margin-left: 80px;
+}
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.nav nav a {
+  margin: 15px;
+}
+.big-img {
+  position: relative;
+  width: 100%;
+}
+.big-img .image {
+  width: 100%;
+}
+.big-img .text-wrapper {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  margin-top: -35%;
+}
+.big-img .text-wrapper button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #030303;
+  margin: 10px auto;
+  cursor: pointer;
+  width: 200px;
+  height: 45px;
+  font-size: 1rem;
+  border-radius: 10px;
+  color: white;
+  font-family: 'Indie Flower', cursive;
+}
+.info-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-top: 4%;
+}
+@media (max-width: 768px) {
+  .info-section {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.info-section div {
+  width: 250px;
+  height: 180px;
+}
+.info-section div h3 {
+  padding-bottom: 15px;
+}
